@@ -1,0 +1,63 @@
+* {
+    padding: 0px;
+    border: 0;
+    margin: 0px;
+}
+img {
+    width: 15%;
+}
+.imagen0 {
+ filter: none;
+}
+.imagen1 {
+    filter: blur(3px);
+    /*ajustar desenfoque*/
+}
+.imagen2 {
+    filter: grayscale(100%);
+    /*ajustar % de gris*/
+}
+.imagen3 {
+    filter: drop-shadow(3px 3px 3px black);
+    /*ajustar sombreado
+     * como con el sambrado de
+     * texto*/
+}
+.imagen4 {
+    filter: sepia(100%);
+    /*ajustar amarilleno como
+     * viejo*/
+}
+.imagen5 {
+    filter: brightness(200%);
+    /*ajustar el brillo*/
+}
+.imagen6 {
+    filter: contrast(200%);
+    /*ajustar contraste, 
+     * 0% no hay imagen todo gris
+     * 200% resalta el tono oscuro o luminico de los
+     * colores*/
+}
+.imagen7 {
+    filter: hue-rotate(0);
+    /*rota el tono del color hasta 360 grados*/
+}
+.imagen8 {
+    filter: invert();
+    /*invertir los colores,
+     * rayados x*/
+}
+.imagen9 {
+    filter: saturate(200%);
+    /*ajustar la saturacion,
+     * la intensidad de color, 0 - 0%sin color,
+     * 1 - 100% normal, a mas*/
+}
+.imagen10 {
+    filter: opacity(50%);
+    opacity: 0.5;
+    /*ajustar la opacidad
+     * que es perder la intensidad
+     * de los colores o transparencia*/
+}

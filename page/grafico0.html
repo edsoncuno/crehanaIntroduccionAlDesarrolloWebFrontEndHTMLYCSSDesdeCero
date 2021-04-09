@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable = no, 
+	minimum-scale=1.0, maximum-scale=1.0">
+        <title>portafolio</title>
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="../img/img0.png" width="100px" height="100px">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="portafolio.html">Portafolio</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <hr>
+	<svg with="600px" height="200px" viewBox="0 0 600 200">
+	    <g id=""grupo1" fill="green" stroke="blue" stroke-width="3">
+		<circle cx="50" cy="50" r="40"></circle>
+		<rect x="100" y="20" width="300" height="100"></rect>
+	    </g>
+	</svg>
+	<hr>
+	<svg width="600px" height="200px" viewBox="0 0 600 200">
+	    <defs>
+		<linearGradient id="colorDegradado">
+		    <stop offset="10%" stop-color="blue" />
+		    <stop offset="90%" stop-color="yellow" />
+		</linearGradient>
+	    </defs> 
+	    <circle cx="50" cy="50" r="40" fill="url(#colorDegradado)" stroke="black" stroke-width="3">
+	    </circle>
+	    <rect x="100" y="20" width="300" height="100" fill="url(#colorDegradado)" stroke="black" 
+	    stroke-width="3">
+	    </rect>
+	</svg>
+	<hr>
+	<svg width="600px" height="200px" viewBox="0 0 600 200">
+	    <title>Titulo en una etiqueta semantica para que los navegadores tomen la informacion</title>
+	    <desc>Descripcion en una etiqueta tambien semantica</desc>
+	    <defs>
+		<rect id="cuadrado" width="50" height="50" fill="yellow" stroke="black" stroke-width="3"></rect>
+	    </defs>
+	    <use xlink:href="#cuadrado" x="20" y="20"></use>
+	    <use xlink:href="#cuadrado" x="100" y="100"></use>
+	</svg>
+	<hr>
+        <footer>
+            <div class="redes-sociales">
+                <ul>
+                    <li><a href="https://www.facebook.com">Facebook</a></li>
+                    <li><a href="https://www.twitter.com">Twitter</a></li>
+                    <li><a href="http://www.instagram.com">Instagram</a></li>
+                </ul>
+            </div>
+        </footer>
+    </body>
+</html>
